@@ -1,0 +1,71 @@
+*{margin-left: 0; margin-right: 0;}
+
+
+.heading {background-color: rgb(28, 28, 34);}
+h1{color:rgb(190, 144, 27)}
+.name{color:white}
+.row{color:white}
+.column {
+    float: left;
+    width: 33.33%;
+    
+  }
+  
+ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .column2 {
+    float: left;
+  }
+  
+  .left { background-color: darkgray;
+    width: 25%; height: 100%;
+  }
+  
+  .right {
+    width: 72%; height: 80%;
+  }
+
+
+
+.container {
+  width: 84%;
+  background-color: rgb(104, 101, 101);margin-bottom: 10px; text-align: right;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {width: 68%; background-color:rgb(190, 144, 27); ;}
+.css {width: 62%; background-color: rgb(190, 144, 27);}
+.js {width: 48%; background-color:rgb(190, 144, 27);}
+.excel {width: 40%; background-color: rgb(190, 144, 27);}
+.english {width: 100%; background-color:rgb(190, 144, 27) ;}
+.afrikaans{width: 60%; background-color:rgb(190, 144, 27);}
+
+.pp{
+  border-radius: 50%; width: 160px; display: block; margin-left: auto;
+  margin-right: auto;
+}
+
+.logo{ width: 200px; height: 200px; margin-top: 30px; border-radius: 50%; margin-left: 500px; margin-right: 100px;}
+#ultag {list-style-type: none; padding: 0%;}
+.litag {margin-top: 15px; font-size: larger; text-align: center; padding-left: 0px;}
+.atag {text-decoration: none; color: black; background-color: rgb(202, 188, 123); padding: 5px;border-radius: 25%;}
+
+.litag :hover{ background-color:burlywood}
+
+body{ scroll-behavior: smooth;}
+#carouselExampleIndicators{width: 200px; height: 150px; margin-left: 500px; margin-bottom: 30px;margin-right: 100px; }
+#slides{display: inline-flex;}
+
+@media screen and (max-width:670px){.left{width: 100vw;}.logo{margin-left: 300px; width: 30%;}.right {width:100vw ;}}
+@media screen and (max-width:833px){.left{width: 100%;}.row2{width: 100%; margin-right: 5px;}#try{width: 100%; margin-right: 5px};.logo{margin-left: 300px; margin-right: 50px;}}}
